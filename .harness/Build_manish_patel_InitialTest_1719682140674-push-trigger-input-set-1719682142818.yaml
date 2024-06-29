@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manish_patel_InitialTest_1719682140674-push-trigger-input-set
+  identifier: Build_manish_patel_InitialTest_1719682140674pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manish_patel_InitialTest_1719682140674
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
