@@ -27,9 +27,9 @@ pipeline:
                   timeout: ""
                   type: Run
           platform:
-            arch: Arm64
             os: MacOS
+            arch: Amd64
           runtime:
-            spec: {}
             type: Docker
+            spec: {}
         type: CI
